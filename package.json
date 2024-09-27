@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "emulator_scripts",
+  "version": "1.0.0",
+  "description": "Useful scripts for reverse engineering games using Project64",
+  "scripts": {
+    "format:js": "prettier --write --ignore-unknown **/*",
+    "format:lua": "stylua --glob '**/*.lua' -- .",
+    "format": "npm run format:js && npm run format:lua",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": "https://github.com/k64ret/emulator_scripts.git",
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k64ret/emulator_scripts/issues"
+  },
+  "homepage": "https://github.com/k64ret/emulator_scripts#readme",
+  "devDependencies": {
+    "@johnnymorganz/stylua-bin": "^0.20.0",
+    "husky": "^9.1.6",
+    "prettier": "^3.3.3"
+  }
+}
