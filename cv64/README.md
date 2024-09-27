@@ -9,3 +9,5 @@ Note that when allocating new blocks, the game doesn't clean the block header, s
 The information shown includes the state of the loaded map piece (active or inactive), as well as its location within the imaginary grid (this grid "moves" while the player is moving through the different map pieces).
 
 * `cv64_object_ID_display.js`: Shows each non-emptyslot from the `Objects_array`, alongside its address and ID number.
+
+* `cv64_misc_info_display.lua`: Displays miscellaneous information regarding the current state of gameplay, such as different player-related variables.
